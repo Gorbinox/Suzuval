@@ -1,0 +1,12 @@
+#header{
+  height: 64px;
+  padding: 0 79px 0 79px;
+  background: linear-gradient(312.95deg, #E30527 0%, #C40A20 51.06%, #9B051C 100%);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24);
+  @media(max-width: 768px){
+      margin: 0;	
+      padding: 0;
+      height: 88px;  
+  }
+      
+}

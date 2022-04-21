@@ -1,0 +1,22 @@
+<!--para el diseño del centro de la pagina-->
+.page_home {
+    background: -webkit-gradient(linear, left top, left bottom, from(#B1ADAD), to(#f5f5f5));
+    background: linear-gradient(180deg, #B1ADAD 0%, #f5f5f5 100%);
+}
+html, body, h1, p, a, img, a img, input, div *:not(.slick-track):not(.slick-list):not(polyline):not(.grid-item) {
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+.slider-cover {
+    background-size: cover;
+}
+.d-block {
+    display: block !important;
+}
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

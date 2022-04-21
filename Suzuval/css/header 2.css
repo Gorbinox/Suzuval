@@ -1,0 +1,24 @@
+
+html, body, h1, p, a, img, a img, input, div *:not(.slick-track):not(.slick-list):not(polyline):not(.grid-item) {
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+header .mobile-header {
+    width: 100%;
+    padding: 0;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
